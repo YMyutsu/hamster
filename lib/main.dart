@@ -58,7 +58,7 @@ class _HamsterGachaState extends State<HamsterGacha> {
           const Text('1️⃣', style: TextStyle(fontSize: 72)),
           ElevatedButton(
             onPressed: loading ? null : gacha,
-            child: const Text('ガチャを回す！'),
+            child: const Text('自引きできますように！'),
           ),
         ],
        ),
